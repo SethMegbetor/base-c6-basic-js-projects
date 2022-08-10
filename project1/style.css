@@ -1,0 +1,53 @@
+.hero {
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1659944975073-453265ccf3a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") center/cover no-repeat;
+display: grid;
+place-items: center;
+}
+
+.banner{
+  background: white;
+  padding: 4rem 0;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 90vw;
+  max-width: 620px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.modal-btn{
+  margin-top: 2rem;
+  background: lightblue;
+  border-color: lightblue;
+  color: black;
+}
+
+.modal-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(73, 166, 233, 0.9);
+  display: grid;
+  place-items: center;
+  transition: all 0.3s linear;
+  visibility: hidden;
+  z-index: -10;
+}
+
+.open-modal{
+  visibility: visible;
+z-index: 10;
+}
+
+.close-btn{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  color: darkred;
+  cursor: pointer;
+  transition: all 0.3s linear;;
+}
