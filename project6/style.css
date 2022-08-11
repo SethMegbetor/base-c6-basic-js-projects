@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+ /* background-image: url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVzaW5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'); */
+
+ background-color: rgb(21, 46, 138);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.palCalculator{
+  position: relative;
+top: 20%;
+left: 20%;
+}
+
+.inputs{
+  background-color: white;
+  height: 70vh;
+  width: 60%;
+  padding: 20% 10%;
+  border-radius: 20px;
+}
+
+#heading{
+background-color: orangered;
+width: 50%;
+font-size: 20px;
+margin-bottom: 5px;
+border-radius: 10px 10px 0 0;
+}
+
+h1{
+  padding-left: 20px;
+  margin-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+label{
+  /* display: none; */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  padding: 2px;
+}
+
+.layout2{
+  margin: 10px auto;
+}
+.layout2 > button{
+  padding: 6px;
+  margin: 5px;
+}

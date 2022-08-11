@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="palCalculator">
+      <h1 id="heading">Profit And Loss Calculator</h1>
+      <div class="inputs">
+        <div class="layout1">
+          <label for="">Cost Price</label>
+          <input class="costPrice" />
+        </div>
+        <div class="layout1">
+          <label for="">Selling Price</label>
+          <input class="sellingPrice" />
+        </div>
+        <div class="layout2">
+          <button onclick="Calculate()">Calculate</button>
+          <button onclick="Clear()">Reset</button>
+        </div>
+        <div class="results">
+          <h2 class="profitLoss"></h2>
+          <h2 class="profitLossPercentage"></h2>
+          <h2 class="nothing"></h2>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
